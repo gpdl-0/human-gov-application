@@ -15,10 +15,10 @@ spec:
       serviceAccountName: humangov-pod-execution-role
       containers:
       - name: humangov-python-app-california
-        image: public.ecr.aws/a0k9o3b0/humangov-app-k8s:latest
+        image: CONTAINER_IMAGE
         env:
         - name: AWS_BUCKET
-          value: "humangov-california-s3-696n"
+          value: "humangov-california-s3-z1ge"
         - name: AWS_DYNAMODB_TABLE
           value: "humangov-california-dynamodb"
         - name: AWS_REGION

@@ -6,7 +6,7 @@ metadata:
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/group.name: frontend
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:807238077477:certificate/4bace724-f44a-48ea-802e-4fda246d2cfc
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:571374609233:certificate/cb16eae5-a8ef-45d0-aa0a-d4fff17f2df0
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}, {"HTTPS":443}]'
     alb.ingress.kubernetes.io/ssl-redirect: '443'
   labels:
